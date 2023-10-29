@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.globalFooter {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 45px;
+}
+
+.footerdiv {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.footerdiv h6 {
+    font-size: 18px;
+    color: #343333;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+}
+
+.footerdiv ul li {
+    list-style-type: none;
+    color: #747171;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+}

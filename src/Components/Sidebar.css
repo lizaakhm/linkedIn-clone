@@ -1,0 +1,80 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 30px;
+    width: 440px;
+}
+
+.sidebar_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: white;
+    border: 1px solid #CCC;
+    border-top: none;
+}
+
+.sidebar_top h2 {
+    color: #343333;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.userinfo {
+    width: 294px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    position: absolute;
+    top: 140px;
+    background-color: white;
+}
+
+.sidebar_insights {
+    border: 1px solid #CCC;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 0 10px 20px;
+    }
+
+.dashboard {
+    padding: 20px 0 20px 20px;
+    text-align: start;
+    border: 1px solid #CCC;
+    border-top: none;
+    margin-bottom: 20px; 
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.dashboard ul li {
+    list-style-type: none;
+}
+
+.sidebar_bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 20px;
+    text-align: start;
+    border: 1px solid #CCC;
+    border-radius: 22px;
+    gap: 6px;
+}
+
+.sidebar_bottom div {
+    display: flex;
+    gap: 5px;
+}
