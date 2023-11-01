@@ -32,7 +32,7 @@ const Sidebar = () => {
           <div className="dashboard_item">
             <ul>
               {dashboard_items.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index} className="dashboard_item_li">{item}</li>
               ))}
             </ul>
           </div>

@@ -7,7 +7,7 @@ function Header2 () {
     return(
         <header>
          <div className="grayheader">
-            <img className="linklogo" src={Logo}></img>
+            <img className="linklogo" src={Logo} alt=""></img>
             <ul className="footerul">
                 <li>Home</li>
                 <li>My Network</li>
@@ -15,7 +15,7 @@ function Header2 () {
                 <li>Messaging</li>
                 <li>Notificatons</li>
             </ul>
-            <img className="ovalimg" src={Ovalpic}></img>
+            <img className="ovalimg" src={Ovalpic} alt=""></img>
          </div>    
         </header>
     )

@@ -42,7 +42,7 @@ p {
     line-height: normal;
 }
 
-ul li {
+.dashboard_item_li {
     list-style-type: none;
     text-align: left;
     padding-left: 30px;
