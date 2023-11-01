@@ -1,7 +1,7 @@
 import React from "react";
 import './Header2.css';
-import Logo from './Images/Linkedinlogo.png'
-import Ovalpic from './Images/Ovalpic.png'
+import Logo from './Images/Linkedinlogo.png';
+import Ovalpic from './Images/Ovalpic.png';
 
 function Header2 () {
     return(

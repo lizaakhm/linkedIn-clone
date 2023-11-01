@@ -5,6 +5,7 @@ import Sidebar from "./Sidebar";
 import GlobalFooter from "./GlobalFooter";
 import NewsFeed from "./NewsFeed";
 import Header2 from "../Header2";
+import Footer from "../Footer";
 
 const MainPage = () => {
   return (
@@ -24,6 +25,7 @@ const MainPage = () => {
       </div>
       <div className="footer">
         <GlobalFooter />
+        <Footer />
       </div>
     </div>
   );

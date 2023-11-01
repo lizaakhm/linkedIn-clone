@@ -4,7 +4,7 @@ import './App.css';
 
 function Footer () {
     return (
-        <footer>
+        <footer style={{margin: "60px 0 70px 0"}}>
          <ul className="footerul">
           <li>About</li>
           <li>Accessibility</li> 
