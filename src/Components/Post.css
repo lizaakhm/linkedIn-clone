@@ -1,0 +1,34 @@
+.post {
+    display: flex;
+    gap: 18px;
+    margin: 40px auto;
+}
+
+.post_input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.post_input input {
+    width: 610px;
+    border: 1px solid #CCC; 
+    color: #343333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400; 
+}
+
+.input_additional_components {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.input_component {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,55 @@
+.Recommendation_Component {
+    /* width: 330px; */
+    border-radius: 45px;
+    border: 1px solid #CCC; 
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 20px;
+}
+
+h3 {
+    color: #343333;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.profiles_to_follow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile_to_follow {
+    display: flex;
+    gap: 20px;
+}
+
+.info_about_profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.info_about_profile h6 {
+    color: #343333;
+    font-size: 13px;
+    width: 220px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info_about_profile p {
+    color: #343333;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,15 +1,17 @@
 import React from "react";
-import GlobalFooter from "./Components/GlobalFooter";
-import Sidebar from "./Components/Sidebar";
-import Input from './LogInInput'
 import './LogInInput.css';
+import MainPage from "./Components/MainPage";
 
 function App() {
   return (
     <>
-      {/* <Input /> */}
+      {/* <Input />
       <Sidebar />
       <GlobalFooter />
+      <RecommendationComponent />
+      <Post />
+      <NewsFeed /> */}
+      <MainPage />
     </>
   );
 }

@@ -54,11 +54,11 @@ const GlobalFooter = () => {
         <div className='footerdiv' 
         key={index}>
           <h6>{data.heading || '\u00a0'}</h6>
-          <ul>
+
             {data.items.map((item, itemIndex) => (
-              <li key={itemIndex}>{item}</li>
+              <p key={itemIndex} className='footer_p'>{item}</p>
             ))}
-          </ul>
+
         </div>
       ))}
     </div>
