@@ -1,0 +1,5 @@
+.firstheader{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 3%;
+}
