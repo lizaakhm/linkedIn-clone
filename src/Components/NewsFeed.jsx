@@ -3,6 +3,8 @@ import follobtn from "./followbutton.svg";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import CloseIcon from "@mui/icons-material/Close";
 import "./NewsFeed.css";
+import feed_img from './feedimg.svg'
+import chatsign from './chatsign.svg'
 
 const NewsFeed = ({ name, description, message, avatar }) => {
   return (
@@ -11,13 +13,12 @@ const NewsFeed = ({ name, description, message, avatar }) => {
         <Avatar style={{ width: "63px", height: "63px" }} />
         <div className="feed_info">
           <h2>Anthony J Jackson</h2>
-          <p>CEO, Innovation, Technology & Growth at Trin</p>
-          <p>5 d.</p>
+          <p className="user_prof">CEO, Innovation, Technology & Growth at Trinity Consulting</p>
         </div>
         <div className="icons">
           <div className="feed_icons">
-            <MoreVertIcon style={{ fill: "#25314C", fontSize: "medium" }} />
-            <CloseIcon style={{ fontSize: "medium" }} />
+            <MoreVertIcon style={{ fill: "#25314C", fontSize: "medium", cursor:'pointer' }} />
+            <CloseIcon style={{ fontSize: "medium", cursor:'pointer' }} />
           </div>
           <img
             src={follobtn}
@@ -26,15 +27,22 @@ const NewsFeed = ({ name, description, message, avatar }) => {
           />
         </div>
       </div>
-      <div className="feed_body">
-        <p>
-          Smart innovation in Taiwan - Gogoro technology electric scooter
-          battery swap solutions make urban sustainability possible.
-        </p>
-        <img src="" alt="" />
+      <p className="status_text">hihihihihihihihihihi</p>
+      {/* <div className = "nino"> */}
+      
+      <div className="post_img">
+        {/* <img src={feed_img} alt="" /> */}
+      </div>
+      {/* </div> */}
+      <div className="comment">80 Comments</div>
+      <div className="line"></div>
+      <div className="comments">
+        <img src={chatsign} alt="chatsign" style={{width: '14px', height:'14px'}}/>
+        <p className="comment_p">Comment</p>
       </div>
     </div>
   );
 };
+
 
 export default NewsFeed;
